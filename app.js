@@ -6,7 +6,7 @@ const todoRoutes = require('./routes/todos');
 const app = express();
 
 // Connect to MongoDB
-mongoose.connect('mongodb+srv://temp:temp@cluster0.qq0lgrt.mongodb.net', {
+mongoose.connect('mongodb+srv://temp:temp@cluster0.qq0lgrt.mongodb.net/test', {
     useNewUrlParser: true,
     useUnifiedTopology: true
 });
